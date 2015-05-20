@@ -1,13 +1,7 @@
 require "rspec/step/version"
 
 require "colorize"
-require "rspec/example_steps"
-require "rspec/rspec_step_code"
 
+puts "This gem has been renamed, use gem 'bdd' now with more support and features"
 
-
-module Rspec
-  module Step
-    # Your code goes here...
-  end
-end
+raise "you shall not pass"

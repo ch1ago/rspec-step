@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["James Pinto"]
   spec.email         = ["thejamespinto@gmail.com"]
 
-  spec.summary       = %q{Cucumber style in your RSpec tests}
-  spec.description   = %q{Cucumber style in your RSpec tests}
-  spec.homepage      = "https://github.com/thejamespinto/rspec-step"
+  spec.summary       = %q{use gem bdd now}
+  spec.description   = %q{use gem bdd now}
+  spec.homepage      = "https://github.com/thejamespinto/bdd"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
@@ -22,7 +22,6 @@ Gem::Specification.new do |spec|
   #   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
   # end
 
-  spec.add_dependency 'rspec-example_steps'
   spec.add_dependency 'rspec'
   spec.add_dependency 'colorize'
 
